@@ -1,0 +1,15 @@
+.app {
+  &-wrapper {
+    display: grid;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    grid-template-areas:
+      "head head"
+      "nav main";
+
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 10px;
+  }
+}

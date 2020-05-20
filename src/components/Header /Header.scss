@@ -1,0 +1,25 @@
+.header {
+  grid-area: head;
+
+  &__logo {
+    pointer-events: none;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .header__logo {
+    animation: header-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes header-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

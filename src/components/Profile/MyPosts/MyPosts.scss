@@ -1,0 +1,9 @@
+.my-posts {
+  grid-area: main;
+
+  .post__avatar {
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+  }
+}
