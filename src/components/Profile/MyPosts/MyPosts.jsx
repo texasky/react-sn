@@ -12,6 +12,10 @@ const MyPosts = () => {
         <button>Remove Post</button>
       </div>
       <div>
+        <Post name="alex" />
+        <Post name="petya" />
+        <Post />
+        <Post />
         <Post />
       </div>
     </div>

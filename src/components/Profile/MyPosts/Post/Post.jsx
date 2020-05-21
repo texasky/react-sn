@@ -1,7 +1,7 @@
 import React from "react";
 import "./Post.scss";
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div>
       <img
